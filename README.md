@@ -1,5 +1,5 @@
 
-# Spotify-audio-Prediction-repository
+# Spotify-Recommendation-system
 
 ![Photo of Music](https://pin.it/7K1UgKIuQ)
 
