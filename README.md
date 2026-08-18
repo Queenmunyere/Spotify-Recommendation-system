@@ -1,7 +1,7 @@
 
 # Spotify-Recommendation-system
 
-![Photo of Music](https://pin.it/7K1UgKIuQ)
+![Photo of Music](https://github.com/Queenmunyere/Spotify-Recommendation-system/blob/main/music-image.jpg)
 
 
 This project aims at build a model that with recommend music of certain similar characteristics to the users using Spotify. 
