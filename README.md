@@ -1,4 +1,9 @@
+
 # Spotify-audio-Prediction-repository
+
+![https://pin.it/7K1UgKIuQ]
+
+
 This project aims at build a model that with recommend music of certain similar characteristics to the users using Spotify. 
 ## Problem Statement.
 * Music streaming platform contain a large number of songs, making it difficult users to discover songs that match their personal preferences.
