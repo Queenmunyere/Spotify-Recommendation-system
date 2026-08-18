@@ -53,6 +53,53 @@ This project aims at build a model that with recommend music of certain similar 
 
 
   ## Conclusions
+* Song recommendation is after by many factors danceability, energy, speechiness, etc.
+* The recommendation is based on content-based recommendation due to columns such as user_id missing.
   
+## Model and evaluation
+*The following models were used:
+   * Logistic Regression - baseline model
+   * Decision tree - interpretable model
+   * Random Forest - Strong general purpose model
+   * K-Nearest Neighbors - particularly relevant, the project involves songs similarity.
+      * CONFUSION MATRIX FOR RANDOM FOREST MODEL:
+    
+        
+   <img width="530" height="455" alt="image" src="https://github.com/user-attachments/assets/333c4330-572a-4f2c-889e-6a2213306b21" />
+   
+
+
+   *Finding*
+    18 -True Negative
+  * 18 songs were not liked and the model corectly not liked(0)
+* 1 - False positive
+  * 1 song was not liked and the model predicted liked.
+* 1 - False negative 
+  * 1 song was actually liked but the model predicted not liked
+* 19 - True positive
+  * 19 songs were actually liked (1) and the model correctly predicted liked.
+
+*Random Forest* achieved 94.87%  accurate on test data.
+     
+
+## Core Findings
+ Random Forest performed best overall.
+   * It achieved the highest accuracy (94.87%), precision (95%), and F1 score (95%), making it the strongest model among the five tested.
+* Logistic Regression had the highest recall (100%).
+    * This means it successfully identified all of the songs that were actually liked in the test set. However, its precision was lower at 86.96%, meaning it produced more false-positive predictions than Random Forest.
+* KNN performed reasonably well.
+  * Its accuracy was 92.31% and precision was 94.74%, but its recall of 90% was lower than Random Forest.
+* Decision Tree and SVM had the weakest overall performance.
+   * Both achieved 89.74% accuracy and an F1 score of 90.48%, so they were less effective than Random Forest, KNN, and Logistic Regression on this dataset.
+* Random Forest provides the best balance.
+   * Its precision and recall are both 95%, indicating that it is relatively balanced in identifying both liked and non-liked songs.
+
+  ### Future work plans
+  * Random Forest as primary prediction model
+* Logistic regression as a supporting model.
+* Improve the dataset by collecting more user interactions
+
+  
+
 
 
