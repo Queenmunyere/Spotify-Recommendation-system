@@ -72,6 +72,28 @@ This project aims at build a model that with recommend music of certain similar 
 
 
 ### MODEL AND EVALUATION
+* Select audio features
+* Standardscaler
+* Cosine Similarity
+* Create user Preference Profile
+* Compare Songs to user Profile
+* Remove Already liked songs
+* Top  10 recommendations
+
+## Conclusion
+* The dataset demonstrates that the user's music preferences are influenced by multiple audio characteristics. The user generally tends to prefer more danceable,energetic , positive-sounding and faster songs. 
+* These patterns can be exploited to develop a content-based music recommendation system that recommends songs with audio characterictics similar to those of songs the user has previously liked.
+
+### Recommendations
+1. Use multiple audio features
+2. Use machine-learning classification
+ * Logistic Regression - baseline
+ * Decision tree - easy to intepret.
+ * Random Forest - best for the model
+ * KNN- useful because it works with similarity
+
+
+
 
 
 
